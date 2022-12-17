@@ -1,11 +1,19 @@
 import Header from "../../header/Header"
+import Posts from "../../post/Post"
+import Sidebar from "../../sidebar/Sidebar"
 import "./home.css"
 
 export default function Home() {
   return (
-    <div className="home">
+      <>
       <Header/>
+      <div className="home">
+        <Posts/>
+        <Sidebar/>
+      </div>
       homepage
-    </div>
+      </>
+   
+    
   )
 }
