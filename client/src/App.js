@@ -1,10 +1,12 @@
 import Home from "./pages/home/Home";
-
+import TopBar from "./TopBar/TopBar";
 
 function App() {
   return(
- <Home/>
-
+    <>
+    <TopBar/>
+    <Home/>
+</>
   );
 }
 export default App;
