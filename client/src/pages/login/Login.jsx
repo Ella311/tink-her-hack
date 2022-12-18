@@ -1,4 +1,5 @@
 import "./login.css"
+import {Link} from "react-router-dom"
 
 export default function Login() {
   return (
@@ -20,8 +21,14 @@ export default function Login() {
                     <i class=" button__icon fa-solid fa-lock"></i>
                         <input type="password" className="login__input" placeholder="Password"/>
                     </div>
-                    <button className="submit">SUBMIT</button>
+                    <div>
+                    <Link className="links" to="/register" style={{textDecoration: "none", color: "inherit"}}>
+                        Dont have account?
+                    </Link>
+                    </div>
+                    <button className="login_submit">SUBMIT</button>
                 </form>
+                
             </div>
         </div>
         <div className="right">
