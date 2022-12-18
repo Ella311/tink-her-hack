@@ -7,9 +7,6 @@ export default function contact() {
 </header>
 
 <div id="form">
-
-
-
 <form id="waterform" method="post">
 
 <div class="formgroup" id="name-form">
