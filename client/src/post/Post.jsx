@@ -1,24 +1,20 @@
 import "./post.css";
-
-export default function Post({img}) {
+export default function Post() {
   return (
     <div className="post">
       <img
         className="postImg"
-        src="https://media.istockphoto.com/id/1198931639/photo/writing-a-blog-blogger-influencer-reading-text-on-screen.jpg?b=1&s=612x612&w=0&k=20&c=_C4iNvLOzKbbfbeTMsJ4mQf8OGQwYWJ8GWKLKRglrF8="
+        src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
         alt=""
       />
       <div className="postInfo">
         <div className="postCats">
-          <span className="postCat">
-           sports
-          </span>
-          <span className="postCat">
-            music
-          </span>
+          <span className="postCat">Music</span>
+          <span className="postCat">Life</span>
         </div>
         <span className="postTitle">
-          life
+            Lorem ipsum dolor sit amet
+         
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
